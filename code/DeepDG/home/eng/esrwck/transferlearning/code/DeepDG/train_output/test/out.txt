@@ -1,0 +1,151 @@
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 22, in get_img_dataloader
+    tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in __init__
+    self.imgs = DatasetFolder(root_dir+domain_name).imgs
+TypeError: can only concatenate str (not "int") to str
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 22, in get_img_dataloader
+    tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in __init__
+    self.imgs = DatasetFolder(root_dir+domain_name).imgs
+TypeError: __init__() missing 1 required positional argument: 'loader'
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 22, in get_img_dataloader
+    tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in __init__
+    self.imgs = ImageFolder(root_dir+domain_name).imgs
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 226, in __init__
+    super(ImageFolder, self).__init__(root, loader, IMG_EXTENSIONS if is_valid_file is None else None,
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 114, in __init__
+    raise RuntimeError(msg)
+RuntimeError: Found 0 files in subfolders of: /home/eng/esrwck/transferlearning/code/DeepDG/Data/Lanzhou_ERP/1
+Supported extensions are: .jpg,.jpeg,.png,.ppm,.bmp,.pgm,.tif,.tiff,.webp
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 22, in get_img_dataloader
+    tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in __init__
+    self.imgs = DatasetFolder(root=root_dir+domain_name, loader=loadmat).imgs
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 109, in __init__
+    samples = make_dataset(self.root, class_to_idx, extensions, is_valid_file)
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 46, in make_dataset
+    raise ValueError("Both extensions and is_valid_file cannot be None or not None at the same time")
+ValueError: Both extensions and is_valid_file cannot be None or not None at the same time
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 22, in get_img_dataloader
+    tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in __init__
+    self.imgs = DatasetFolder(root=root_dir+domain_name, loader=loadmat, s_valid_file=lambda path: not os.path.split(path)[1].startswith('.')).samples
+TypeError: __init__() got an unexpected keyword argument 's_valid_file'
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 22, in get_img_dataloader
+    tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in __init__
+    self.imgs = DatasetFolder(root=root_dir+domain_name, loader=loadmat, is_valid_file=lambda path: not os.path.split(path)[1].startswith('.')).samples
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 109, in __init__
+    samples = make_dataset(self.root, class_to_idx, extensions, is_valid_file)
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 59, in make_dataset
+    if is_valid_file(path):
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/imgdata/imgdataload.py", line 13, in <lambda>
+    self.imgs = DatasetFolder(root=root_dir+domain_name, loader=loadmat, is_valid_file=lambda path: not os.path.split(path)[1].startswith('.')).samples
+NameError: name 'os' is not defined
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 30, in get_img_dataloader
+    indextr, indexte = next(stsplit.split(lslist, tmpdatay))
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 1689, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 2061, in _iter_indices
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/eng/esrwck/.local/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 2236, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=0.8, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+Environment:
+	Python: 3.8.6
+	PyTorch: 1.7.1
+	Torchvision: 0.8.1
+	CUDA: 11.1
+	CUDNN: 8004
+	NumPy: 1.19.4
+	PIL: 8.0.1
+Traceback (most recent call last):
+  File "train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "/home/eng/esrwck/transferlearning/code/DeepDG/datautil/getdataloader.py", line 30, in get_img_dataloader
+    indextr, indexte = next(stsplit.split(lslist, tmpdatay))
+  File "/warwick/desktop/2018/software/scikit-learn/0.23.2-fosscuda-2020b/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 1341, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "/warwick/desktop/2018/software/scikit-learn/0.23.2-fosscuda-2020b/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 1654, in _iter_indices
+    n_train, n_test = _validate_shuffle_split(
+  File "/warwick/desktop/2018/software/scikit-learn/0.23.2-fosscuda-2020b/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 1810, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=0.8, the resulting train set will be empty. Adjust any of the aforementioned parameters.

@@ -17,10 +17,10 @@ def get_img_dataloader(args):
     for i in range(len(names)):
         if i in args.test_envs:
             tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
-                                           names[i], i, transform=imgutil.image_test(args.dataset), test_envs=args.test_envs))
+                                           names[i], i, test_envs=args.test_envs))
         else:
             tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
-                                    names[i], i, transform=imgutil.image_train(args.dataset), test_envs=args.test_envs).labels
+                                    names[i], i, test_envs=args.test_envs).labels
             l = len(tmpdatay)
             if args.split_style == 'strat':
                 lslist = np.arange(l)
@@ -36,9 +36,9 @@ def get_img_dataloader(args):
                 indextr, indexte = indexall[:-ted], indexall[-ted:]
 
             trdatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
-                                           names[i], i, transform=imgutil.image_train(args.dataset), indices=indextr, test_envs=args.test_envs))
+                                           names[i], i, indices=indextr, test_envs=args.test_envs))
             tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
-                                           names[i], i, transform=imgutil.image_test(args.dataset), indices=indexte, test_envs=args.test_envs))
+                                           names[i], i, indices=indexte, test_envs=args.test_envs))
 
     train_loaders = [InfiniteDataLoader(
         dataset=env,

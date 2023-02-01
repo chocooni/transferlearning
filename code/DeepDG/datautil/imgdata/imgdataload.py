@@ -3,13 +3,15 @@ from torch.utils.data import Dataset
 import numpy as np
 from datautil.util import Nmax
 from datautil.imgdata.util import rgb_loader, l_loader
-from torchvision.datasets import ImageFolder
+from torchvision.datasets import ImageFolder, DatasetFolder
 from torchvision.datasets.folder import default_loader
+from scipy.io import loadmat
+import os
 
 
 class ImageDataset(object):
-    def __init__(self, dataset, task, root_dir, domain_name, domain_label=-1, labels=None, transform=None, target_transform=None, indices=None, test_envs=[], mode='Default'):
-        self.imgs = ImageFolder(root_dir+domain_name).imgs
+    def __init__(self, dataset, task, root_dir, domain_name, domain_label=-1, labels=None, transform=None, target_transform=None, indices=None, test_envs=[]):
+        self.imgs = DatasetFolder(root=root_dir+domain_name, loader=loadmat, is_valid_file=lambda path: not os.path.split(path)[1].startswith('.')).samples
         self.domain_num = 0
         self.task = task
         self.dataset = dataset
@@ -23,12 +25,7 @@ class ImageDataset(object):
             self.indices = np.arange(len(imgs))
         else:
             self.indices = indices
-        if mode == 'Default':
-            self.loader = default_loader
-        elif mode == 'RGB':
-            self.loader = rgb_loader
-        elif mode == 'L':
-            self.loader = l_loader
+        self.loader = loadmat
         self.dlabels = np.ones(self.labels.shape) * \
             (domain_label-Nmax(test_envs, domain_label))
 
@@ -53,7 +50,7 @@ class ImageDataset(object):
 
     def __getitem__(self, index):
         index = self.indices[index]
-        img = self.input_trans(self.loader(self.x[index]))
+        img = self.input_trans(self.loader(self.x[index]["EEGdata"], dtype=np.float32))
         ctarget = self.target_trans(self.labels[index])
         dtarget = self.target_trans(self.dlabels[index])
         return img, ctarget, dtarget

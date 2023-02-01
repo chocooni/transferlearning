@@ -107,6 +107,9 @@ def img_param_init(args):
         domains = ['art_painting', 'cartoon', 'photo', 'sketch']
     elif dataset == 'VLCS':
         domains = ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007']
+    elif dataset == 'Lanzhou_ERP':
+        domains = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29',
+           '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53']
     else:
         print('No such dataset exists!')
     args.domains = domains
@@ -116,11 +119,16 @@ def img_param_init(args):
         'office-home': ['Art', 'Clipart', 'Product', 'Real_World'],
         'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'],
         'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'],
-        'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007']
+        'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'],
+        'Lanzhou_ERP' : ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29',
+           '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53']
     }
     if dataset == 'dg5':
         args.input_shape = (3, 32, 32)
         args.num_classes = 10
+    elif dataset == 'Lanzhou_ERP':
+        args.input_shape = (480, 128, 150)
+        args.num_classes = 2
     else:
         args.input_shape = (3, 224, 224)
         if args.dataset == 'office-home':
