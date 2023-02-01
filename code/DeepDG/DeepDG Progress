@@ -6,5 +6,10 @@ datadir: DeepDG/Data/Lanzhou_ERP/
 bash scripts/run.sh
 
 2.1
-Github token:
-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
+git add .
+git commit -m '...'
+git push
+
+new codespace after update:
+docker pull jindongwang/docker
+pip install torchvision
