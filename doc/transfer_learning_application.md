@@ -18,6 +18,12 @@ By reverse chronological order.
 
 ## Computer vision
 
+- Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
+  - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
+
+- Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow [[arxiv](https://arxiv.org/abs/2303.07564)]
+  - Domain adaptation for foggy scene optical flow 领域自适应用于雾场景的光流
+
 - CLIP the Gap: A Single Domain Generalization Approach for Object Detection [[arxiv](https://arxiv.org/abs/2301.05499)]
   - Using CLIP for domain generalization object detection 使用CLIP进行域泛化的目标检测
 
@@ -309,6 +315,12 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
+  - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
+
+- Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
+  - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
+
 - Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
   - Domain adaptation for COVID-19 用DA进行COVID-19预测
 
@@ -523,6 +535,9 @@ By reverse chronological order.
 - 20180402 arXiv 将迁移学习用于癌症检测：[Improve the performance of transfer learning without fine-tuning using dissimilarity-based multi-view learning for breast cancer histology images](https://arxiv.org/abs/1803.11241)
 
 ## Natural language processing
+
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
 
 - GLUE-X: Evaluating Natural Language Understanding Models from an Out-of-distribution Generalization Perspective [[arxiv](https://arxiv.org/abs/2211.08073)]
   - OOD for natural language processing evaluation 提出GLUE-X用于OOD在NLP数据上的评估

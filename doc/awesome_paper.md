@@ -15,6 +15,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - [Deep domain adaptation](#deep-domain-adaptation)
   - [Domain generalization](#domain-generalization)
     - [Survey](#survey-1)
+    - [Tutorial](#tutorial)
     - [Papers](#papers)
   - [Source-free domain adaptation](#source-free-domain-adaptation)
   - [Multi-source domain adaptation](#multi-source-domain-adaptation)
@@ -151,6 +152,21 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
+  - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
+
+- ICLR'23 AutoTransfer: AutoML with Knowledge Transfer -- An Application to Graph Neural Networks [[arxiv](https://arxiv.org/abs/2303.07669)]
+  - GNN with autoML transfer learning 用于GNN的自动迁移学习
+
+- Revisit Parameter-Efficient Transfer Learning: A Two-Stage Paradigm [[arxiv](https://arxiv.org/abs/2303.07910)]
+  - Parameter-efficient transfer learning: a two-stage approach 一种两阶段的参数高效迁移学习
+
+- To Stay or Not to Stay in the Pre-train Basin: Insights on Ensembling in Transfer Learning [[arxiv](https://arxiv.org/abs/2303.03374)]
+  - Ensembling in transfer learning 调研迁移学习中的集成
+
+- CVPR'13 Masked Images Are Counterfactual Samples for Robust Fine-tuning [[arxiv](https://arxiv.org/abs/2303.03052)]
+  - Masked images for robust fine-tuning 调研masked image对于fine-tuning的影响
 
 - Finetune like you pretrain: Improved finetuning of zero-shot vision models [[arxiv]](http://arxiv.org/abs/2212.00638)]
   - Improved fine-tuning of zero-shot models 针对zero-shot model提高fine-tuneing
@@ -645,6 +661,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow [[arxiv](https://arxiv.org/abs/2303.07564)]
+  - Domain adaptation for foggy scene optical flow 领域自适应用于雾场景的光流
 
 - Domain Adaptation for Time Series Under Feature and Label Shifts [[arxiv](https://arxiv.org/abs/2302.03133)]
   - Domain adaptation for time series 用于时间序列的domain adaptation
@@ -1640,7 +1659,30 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - First survey on domain generalization
     - 第一篇对Domain generalization (领域泛化)的综述
 
+### Tutorial
+
+- WSDM-23 and IJCAI-22 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
+  - A tutorial on domain generalization
+
 ### Papers
+
+- Domain Generalization via Nuclear Norm Regularization [[arxiv](https://arxiv.org/abs/2303.07527)]
+  - Domain generalization via nuclear norm regularization 使用核归一化进行domain generalization
+
+- Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
+  - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
+
+- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+  - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
+
+- Robust Representation Learning with Self-Distillation for Domain Generalization [[arxiv](http://arxiv.org/abs/2302.06874)]
+  - Robust representation learning with self-distillation
+
+- ICLR-23 Temporal Coherent Test-Time Optimization for Robust Video Classification [[arxiv](http://arxiv.org/abs/2302.14309)]
+  - Temporal distribution shift in video classification
+
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
 
 - How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arxiv](https://arxiv.org/abs/2302.03679)]
   - Regression models uncertainty for distribution shift 回归模型对于分布漂移的不确定性
@@ -2423,6 +2465,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+  - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
 
 - [Federated Semi-Supervised Domain Adaptation via Knowledge Transfer](https://arxiv.org/abs/2207.10727)
   - Federated semi-supervised DA 联邦半监督DA
