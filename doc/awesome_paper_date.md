@@ -3,6 +3,17 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-12](#2023-12)
+  - [2023-11](#2023-11)
+  - [2023-10](#2023-10)
+  - [2023-09](#2023-09)
+  - [2023-08](#2023-08)
+  - [2023-07](#2023-07)
+  - [2023-06](#2023-06)
+  - [2023-05](#2023-05)
+  - [2023-04](#2023-04)
+  - [2023-03](#2023-03)
+  - [2023-02](#2023-02)
   - [2023-01](#2023-01)
   - [2022-12](#2022-12)
   - [2022-11](#2022-11)
@@ -22,6 +33,389 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-12
+
+- Multi-Modal Domain Adaptation Across Video Scenes for Temporal Video Grounding [[arxiv](https://arxiv.org/abs/2312.13633)]
+  - Multi-modal domain adaptation 多模态领域自适应
+
+- Domain Adaptive Graph Classification [[arxiv](https://arxiv.org/abs/2312.13536)]
+  - Domain adaptive graph classification 域适应的图分类
+
+- Understanding and Estimating Domain Complexity Across Domains [[arxiv](https://arxiv.org/abs/2312.13487)]
+  - Understanding and estimating domain complexity 解释领域复杂性
+
+- Prompt-based Domain Discrimination for Multi-source Time Series Domain Adaptation [[arxiv](https://arxiv.org/abs/2312.12276v1)]
+  - Prompt-based domain discrimination for time series domain adaptation 基于prompt的时间序列域自适应
+
+- NeurIPS'23 SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models [[arxiv](https://openreview.net/forum?id=EhdNQiOWgQ)]
+  - Test-time prompt adaptation for vision language models 对视觉-语言大模型的测试时prompt自适应
+
+- AAAI24 Relax Image-Specific Prompt Requirement in SAM: A Single Generic Prompt for Segmenting Camouflaged Objects [[arxiv](https://arxiv.org/abs/2312.07374)][[code](https://github.com/jyLin8100/GenSAM)]
+  - A training-free test-time adaptation approach to relax the instance-specific prompts requirment in SAM.
+
+- Open Domain Generalization with a Single Network by Regularization Exploiting Pre-trained Features [[arxiv](http://arxiv.org/abs/2312.05141)]
+  - Open domain generalization with a single network 用单一网络结构进行开放式domain generalizaition
+
+- Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2312.04265)]
+  - Using vision foundation models for domain genealized semantic segmentation 用视觉基础模型进行域泛化语义分割
+
+- DARNet: Bridging Domain Gaps in Cross-Domain Few-Shot Segmentation with Dynamic Adaptation [[arxiv](http://arxiv.org/abs/2312.04813)]
+  - Dynamic adaptation for cross-domain few-shot segmentation 动态适配用于跨领域小样本分割
+
+- A Unified Framework for Unsupervised Domain Adaptation based on Instance Weighting [[arxiv](http://arxiv.org/abs/2312.05024)]
+  - Instance weighting for domain adaptation 样本加权用于领域自适应
+
+- Target-agnostic Source-free Domain Adaptation for Regression Tasks [[arxiv](http://arxiv.org/abs/2312.00540)]
+  - Target-agnostic source-free DA for regression 用于回归任务的source-free DA
+
+- On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
+  - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
+
+- Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
+  - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为
+
+## 2023-11
+
+- A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
+  - Private domain generalization 隐私保护的domain generalization
+
+- Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation [[arxiv](http://arxiv.org/abs/2311.05858)]
+  - Auto-weighting for test-time adaptation 自动权重的TTA
+
+- Domain Generalization by Learning from Privileged Medical Imaging Information [[arxiv](http://arxiv.org/abs/2311.05861)]
+  - Domain generalizaiton by learning from privileged medical imageing inforamtion
+
+- SSL-DG: Rethinking and Fusing Semi-supervised Learning and Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2311.02583)]
+  - Semi-supervised learning + domain generalization 把半监督和领域泛化结合在一起
+
+- WACV'24 Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02599)]
+  - Class and domain augmentation for single-source open-domain DG 结合类和domain增强做单源DG
+
+- Proposal-Level Unsupervised Domain Adaptation for Open World Unbiased Detector [[arxiv](https://arxiv.org/abs/2311.02342)]
+  - Proposal-level unsupervised domain adaptation
+
+- Robust Fine-Tuning of Vision-Language Models for Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02236)]
+  - Robust fine-tuning for domain generalization 用于领域泛化的鲁棒微调
+
+- NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]
+  - Distill OOD robustness from vision-language foundational models 从VLM模型中蒸馏出OOD鲁棒性
+
+- UbiComp 2024 Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition [[arxiv](https://arxiv.org/abs/2310.18562)]
+  - Test-time adaptation for activity recognition 测试时adaptation用于行为识别
+
+## 2023-10
+
+- PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]
+  - Prompt-driven style generation for source-free domain generalization
+
+- A Survey of Heterogeneous Transfer Learning [[arxiv](https://arxiv.org/abs/2310.08459v2)]
+  - A recent survey of heterogeneous transfer learning 一篇最近的关于异构迁移学习的综述
+
+- Equivariant Adaptation of Large Pre-Trained Models [[arxiv](http://arxiv.org/abs/2310.01647)]
+  - Equivariant adaptation of large pre-trained models 对大模型进行等边自适应
+
+- Effective and Parameter-Efficient Reusing Fine-Tuned Models [[arxiv](http://arxiv.org/abs/2310.01886)]
+  - Effective and parameter-efficient reusing fine-tuned models 高效使用预训练模型
+  
+- Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
+  - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
+
+- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+  - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
+
+- ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
+  - Black-box foundation models for personalized federated learning 黑盒的blackbox模型进行个性化迁移学习
+
+## 2023-09
+
+- Domain Generalization with Fourier Transform and Soft Thresholding [[arxiv](http://arxiv.org/abs/2309.09866)]
+  - Domain generalization with Fourier transform 基于傅里叶变换和软阈值进行domain generalization
+
+- DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning [[arxiv](http://arxiv.org/abs/2309.05173)]
+  - Decomposed prompt tuning for parameter-efficient fine-tuning 基于分解prompt tuning的参数高效微调
+
+- Better Practices for Domain Adaptation [[arxiv](http://arxiv.org/abs/2309.03879)]
+  - Better practice for domain adaptation
+
+- Domain Adaptation for Efficiently Fine-tuning Vision Transformer with Encrypted Images [[arxiv](http://arxiv.org/abs/2309.02556)]
+  - Domain adaptation for efficient ViT
+
+- Robust Activity Recognition for Adaptive Worker-Robot Interaction using Transfer Learning [[arxiv](http://arxiv.org/abs/2308.14843)]
+  - Activity recognition using domain adaptation
+
+
+## 2023-08
+
+- IJCV'23 Exploring Vision-Language Models for Imbalanced Learning [[arxiv](https://arxiv.org/abs/2304.01457)] [[code](https://github.com/Imbalance-VLM/Imbalance-VLM)]
+  - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
+
+- ICCV'23 Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning [[arxiv](https://arxiv.org/abs/2308.02533)] [[code](https://github.com/microsoft/robustlearn)]
+  - 达到对抗鲁棒性和泛化能力的trade off 
+
+- ICCV'23 Domain-Specificity Inducing Transformers for Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2308.14023)]
+  - Domain-specificity for source-free DA 用领域特异性驱动的source-free DA
+
+- Unsupervised Domain Adaptation via Domain-Adaptive Diffusion [[arxiv](http://arxiv.org/abs/2308.13893)]
+  - Domain-adaptive diffusion for domain adaptation 领域自适应的diffusion
+
+- Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization [[arxiv](http://arxiv.org/abs/2308.14418)]
+  - Multi-scale and multi-layer contrastive learning for DG 多尺度和多层对比学习用于DG
+
+- Exploring the Transfer Learning Capabilities of CLIP in Domain Generalization for Diabetic Retinopathy [[arxiv](http://arxiv.org/abs/2308.14212)]
+  - Domain generalization for diabetic retinopathy 用领域泛化进行糖尿病视网膜病
+
+- Federated Fine-tuning of Billion-Sized Language Models across Mobile Devices [[arxiv](http://arxiv.org/abs/2308.13894)]
+  - Federated fine-tuning for large models 大模型联邦微调
+
+- Source-Free Collaborative Domain Adaptation via Multi-Perspective Feature Enrichment for Functional MRI Analysis [[arxiv](http://arxiv.org/abs/2308.12495)]
+  - Source-free domain adaptation for MRI analysis
+
+- Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
+  - Unsupervised fine-tuning of CLIP
+
+- Fine-tuning can cripple your foundation model; preserving features may be the solution [[arxiv](http://arxiv.org/abs/2308.13320)]
+  - Fine-tuning will cripple foundation model
+
+- Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
+  - Transfer learning for medical image segmentation
+
+- Transfer Learning for Portfolio Optimization [[arxiv](http://arxiv.org/abs/2307.13546)]
+  - Transfer learning for portfolio optimization
+
+- NormAUG: Normalization-guided Augmentation for Domain Generalization [[arxiv](http://arxiv.org/abs/2307.13492)]
+  - Normalization augmentation for domain generalization
+
+## 2023-07
+
+- Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
+  - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
+
+- DISPEL: Domain Generalization via Domain-Specific Liberating [[arxiv](http://arxiv.org/abs/2307.07181)]
+  - Domain generalization via domain-specific liberating
+
+- Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
+  - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
+
+- Intra- & Extra-Source Exemplar-Based Style Synthesis for Improved Domain Generalization [[arxiv](https://arxiv.org/abs/2307.00648)]
+  - Exemplar-based style synthesis for domain generalization 样例格式合成用于DG
+
+- SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation [[arxiv](https://arxiv.org/abs/2307.01024)]
+  - Using SAM for domain adaptation 使用segment anything进行domain adaptation
+
+- Unified Transfer Learning Models for High-Dimensional Linear Regression [[arxiv](https://arxiv.org/abs/2307.00238)]
+  - Transfer learning for high-dimensional linar regression 迁移学习用于高维线性回归
+
+## 2023-06
+
+- Pruning for Better Domain Generalizability [[arxiv](http://arxiv.org/abs/2306.13237)]
+  - Using pruning for better domain generalization 使用剪枝操作进行domain generalization
+
+- TMLR'23 Generalizability of Adversarial Robustness Under Distribution Shifts [[openreview](https://openreview.net/forum?id=XNFo3dQiCJ)]
+  - Evaluate the OOD perormance of adversarial training 评测对抗训练模型的OOD鲁棒性
+
+- Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning [[arxiv](http://arxiv.org/abs/2303.15647)]
+  - A guide for parameter-efficient fine-tuning 一个对parameter efficient fine-tuning的全面介绍
+
+- ICML'23 A Kernel-Based View of Language Model Fine-Tuning [[arxiv](http://arxiv.org/abs/2210.05643)]
+  - A kernel-based view of language model fine-tuning 一种以kernel的视角来看待fine-tuning的方法
+
+- ICML'23 Improving Visual Prompt Tuning for Self-supervised Vision Transformers [[arxiv](http://arxiv.org/abs/2306.05067)]
+  - Improving visual prompt tuning for self-supervision 为自监督模型提高其 prompt tuning 表现
+
+- Cross-Database and Cross-Channel ECG Arrhythmia Heartbeat Classification Based on Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2306.04433)]
+  - EEG using unsupervised domain adaptation 用无监督DA来进行EEG心跳分类
+
+- Real-Time Online Unsupervised Domain Adaptation for Real-World Person Re-identification [[arxiv](http://arxiv.org/abs/2306.03993)]
+  - Real-time online unsupervised domain adaptation for REID 无监督DA用于REID
+
+- Federated Domain Generalization: A Survey [[arxiv](http://arxiv.org/abs/2306.01334)]
+  - A survey on federated domain generalization 一篇关于联邦域泛化的综述
+
+- Domain Generalization for Domain-Linked Classes [[arxiv](http://arxiv.org/abs/2306.00879)]
+  - Domain generalization for domain-linked classes
+
+- Can We Evaluate Domain Adaptation Models Without Target-Domain Labels? A Metric for Unsupervised Evaluation of Domain Adaptation [[arxiv](http://arxiv.org/abs/2305.18712)]
+  - Evaluate domain adaptation models 评测domain adaptation的模型
+
+- Universal Test-time Adaptation through Weight Ensembling, Diversity Weighting, and Prior Correction [[arxiv](http://arxiv.org/abs/2306.00650)]
+  - Universal test-time adaptation
+
+- Adapting Pre-trained Language Models to Vision-Language Tasks via Dynamic Visual Prompting [[arxiv](http://arxiv.org/abs/2306.00409)]
+  - Using dynamic visual prompting for model adaptation 用动态视觉prompt进行模型适配
+
+## 2023-05
+
+- Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup [[arxiv](https://arxiv.org/abs/2305.16817)]
+  - Why mixup works for domain generalization? 系统性研究为啥mixup对OOD很work
+
+- ACL'23 Parameter-Efficient Fine-Tuning without Introducing New Latency [[arxiv](http://arxiv.org/abs/2305.16742)]
+  - Parameter-efficient finetuning 参数高效的finetune
+
+- Universal Domain Adaptation from Foundation Models [[arxiv](http://arxiv.org/abs/2305.11092)]
+  - Using foundation models for universal domain adaptation
+
+- Ahead-of-Time P-Tuning [[arxiv](http://arxiv.org/abs/2305.10835)]
+  - Ahead-ot-time P-tuning for language models
+
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](http://arxiv.org/abs/2304.12422)]
+  - Decentralized federated domain adaptation 
+
+- Benchmarking Low-Shot Robustness to Natural Distribution Shifts [[arxiv](http://arxiv.org/abs/2304.11263)]
+  - Low-shot robustness to distribution shifts
+
+## 2023-04
+
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](https://arxiv.org/abs/2304.12422)]
+  - Multi-source to multi-target federated domain adaptation 多源多目标的联邦域自适应
+
+- ICML'23 AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2304.12566)]
+  - Adaptive test-time adaptation 非参数化分类器进行测试时adaptation
+
+- Improved Test-Time Adaptation for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.04494)]
+  - Improved test-time adaptation for domain generalization
+
+- Reweighted Mixup for Subpopulation Shift [[arxiv](http://arxiv.org/abs/2304.04148)]
+  - Reweighted mixup for subpopulation shift
+
+- CVPR'23 Zero-shot Generative Model Adaptation via Image-specific Prompt Learning [[arxiv](http://arxiv.org/abs/2304.03119)]
+  - Zero-shot generative model adaptation via image-specific prompt learning 零样本的生成模型adaptation
+
+- Source-free Domain Adaptation Requires Penalized Diversity [[arxiv](http://arxiv.org/abs/2304.02798)]
+  - Source-free DA requires penalized diversity
+
+- Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
+  - Domain generalization for medical segmentation 用domain generalization进行医学分割
+
+- CVPR'23 Meta-causal Learning for Single Domain Generalization [[arxiv](http://arxiv.org/abs/2304.03709)]
+  - Meta-causal learning for domain generalization
+
+- Domain Generalization In Robust Invariant Representation [[arxiv](http://arxiv.org/abs/2304.03431)]
+  - Domain generalization in robust invariant representation
+
+- Beyond Empirical Risk Minimization: Local Structure Preserving Regularization for Improving Adversarial Robustness [[arxiv](http://arxiv.org/abs/2303.16861)]
+  - Local structure preserving for adversarial robustness 通过保留局部结构来进行对抗鲁棒性
+
+- TFS-ViT: Token-Level Feature Stylization for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.15698)]
+  - Token-level feature stylization for domain generalization 用token-level特征变换进行domain generalization
+
+- Are Data-driven Explanations Robust against Out-of-distribution Data? [[arxiv](http://arxiv.org/abs/2303.16390)]
+  - Data-driven explanations robust? 探索数据驱动的解释是否是OOD鲁棒的
+
+- ERM++: An Improved Baseline for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.01973)]
+  - Improved ERM for domain generalization 提高的ERM用于domain generalization
+
+- CVPR'23 Feature Alignment and Uniformity for Test Time Adaptation [[arxiv](http://arxiv.org/abs/2303.10902)]
+  - Feature alignment for test-time adaptation 使用特征对齐进行测试时adaptation
+
+- Finding Competence Regions in Domain Generalization [[arxiv](http://arxiv.org/abs/2303.09989)]
+  - Finding competence regions in domain generalization 在DG中发现能力区域
+
+- CVPR'23 TWINS: A Fine-Tuning Framework for Improved Transferability of Adversarial Robustness and Generalization [[arxiv](http://arxiv.org/abs/2303.11135)]
+  - Improve generalization and adversarial robustness 同时提高鲁棒性和泛化性
+
+- CVPR'23 Trainable Projected Gradient Method for Robust Fine-tuning [[arxiv](http://arxiv.org/abs/2303.10720)]
+  - Trainable PGD for robust fine-tuning 可训练的pgd用于鲁棒的微调技术
+
+- Parameter-Efficient Tuning Makes a Good Classification Head [[arxiv](http://arxiv.org/abs/2210.16771)]
+  - Parameter-efficient tuning makes a good classification head 参数高效的迁移学习成就一个好的分类头
+
+- Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
+  - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
+
+## 2023-03
+
+- CVPR'23 A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation [[arxiv](http://arxiv.org/abs/2303.09165)]
+  - A new benchmark for domain adaptation 一个对于domain adaptation最新的benchmark
+
+- Unsupervised domain adaptation by learning using privileged information [[arxiv](http://arxiv.org/abs/2303.09350)]
+  - Domain adaptation by privileged information 使用高级信息进行domain adaptation
+
+- A Unified Continual Learning Framework with General Parameter-Efficient Tuning [[arxiv](http://arxiv.org/abs/2303.10070)]
+  - A continual learning framework for parameter-efficient tuning 一个对于参数高效迁移的连续学习框架
+
+- CVPR'23 Sharpness-Aware Gradient Matching for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.10353)]
+  - Sharpness-aware gradient matching for DG 利用梯度匹配进行domain generalization
+
+- TempT: Temporal consistency for Test-time adaptation [[arxiv](http://arxiv.org/abs/2303.10536)]
+  - Temporeal consistency for test-time adaptation 时间一致性用于test-time adaptation
+
+- TMLR'23 Learn, Unlearn and Relearn: An Online Learning Paradigm for Deep Neural Networks [[arxiv](http://arxiv.org/abs/2303.10455)]
+  - A framework for online learning 一个在线学习的框架
+
+- ICLR'23 workshop SPDF: Sparse Pre-training and Dense Fine-tuning for Large Language Models [[arxiv](http://arxiv.org/abs/2303.10464)]
+  - Sparse pre-training and dense fine-tuning
+
+- CVPR'23 ALOFT: A Lightweight MLP-like Architecture with Dynamic Low-frequency Transform for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.11674)]
+  - A lightweight module for domain generalization 一个用于DG的轻量级模块
+
+- ICLR'23 Contrastive Alignment of Vision to Language Through Parameter-Efficient Transfer Learning [[arxiv](http://arxiv.org/abs/2303.11866)]
+  - Contrastive alignment for vision language models using transfer learning 使用参数高效迁移进行视觉语言模型的对比对齐
+
+- Probabilistic Domain Adaptation for Biomedical Image Segmentation [[arxiv](http://arxiv.org/abs/2303.11790)]
+  - Probabilistic domain adaptation for biomedical image segmentation 概率的domain adaptation用于生物医疗图像分割
+
+- Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
+  - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
+
+- Revisit Parameter-Efficient Transfer Learning: A Two-Stage Paradigm [[arxiv](https://arxiv.org/abs/2303.07910)]
+  - Parameter-efficient transfer learning: a two-stage approach 一种两阶段的参数高效迁移学习
+
+- Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow [[arxiv](https://arxiv.org/abs/2303.07564)]
+  - Domain adaptation for foggy scene optical flow 领域自适应用于雾场景的光流
+
+- ICLR'23 AutoTransfer: AutoML with Knowledge Transfer -- An Application to Graph Neural Networks [[arxiv](https://arxiv.org/abs/2303.07669)]
+  - GNN with autoML transfer learning 用于GNN的自动迁移学习
+
+- Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
+  - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
+
+- Domain Generalization via Nuclear Norm Regularization [[arxiv](https://arxiv.org/abs/2303.07527)]
+  - Domain generalization via nuclear norm regularization 使用核归一化进行domain generalization
+
+- To Stay or Not to Stay in the Pre-train Basin: Insights on Ensembling in Transfer Learning [[arxiv](https://arxiv.org/abs/2303.03374)]
+  - Ensembling in transfer learning 调研迁移学习中的集成
+
+- CVPR'13 Masked Images Are Counterfactual Samples for Robust Fine-tuning [[arxiv](https://arxiv.org/abs/2303.03052)]
+  - Masked images for robust fine-tuning 调研masked image对于fine-tuning的影响
+
+- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+  - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
+
+- Robust Representation Learning with Self-Distillation for Domain Generalization [[arxiv](http://arxiv.org/abs/2302.06874)]
+  - Robust representation learning with self-distillation
+
+- ICLR-23 Temporal Coherent Test-Time Optimization for Robust Video Classification [[arxiv](http://arxiv.org/abs/2302.14309)]
+  - Temporal distribution shift in video classification
+
+- WSDM-23 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
+  - A tutorial on domain generalization
+
+## 2023-02
+
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
+
+- Transfer learning for process design with reinforcement learning [[arxiv](https://arxiv.org/abs/2302.03375)]
+  - Transfer learning for process design with reinforcement learning 使用强化迁移学习进行过程设计
+
+- Domain Adaptation for Time Series Under Feature and Label Shifts [[arxiv](https://arxiv.org/abs/2302.03133)]
+  - Domain adaptation for time series 用于时间序列的domain adaptation
+
+- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arxiv](https://arxiv.org/abs/2302.03679)]
+  - Regression models uncertainty for distribution shift 回归模型对于分布漂移的不确定性
+
+- ICLR'23 SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2301.10921)]
+  - Semi-supervised learning algorithm 解决标签质量问题的半监督学习方法
+
+- Empirical Study on Optimizer Selection for Out-of-Distribution Generalization [[arxiv](http://arxiv.org/abs/2211.08583)]
+  - Opimizer selection for OOD generalization OOD泛化中的学习器选择
+
+- ICML'22 Understanding the failure modes of out-of-distribution generalization [[arxiv](https://openreview.net/forum?id=fSTD6NFIW_b)]
+  - Understand the failure modes of OOD generalization 探索OOD泛化中的失败现象
+
+- ICLR'23 Out-of-distribution Representation Learning for Time Series Classification [[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 时间序列分类的OOD算法
 
 ## 2023-01
 

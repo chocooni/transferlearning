@@ -18,6 +18,12 @@ By reverse chronological order.
 
 ## Computer vision
 
+- Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
+  - Transfer learning for medical image segmentation
+
+- Transfer Learning for Portfolio Optimization [[arxiv](http://arxiv.org/abs/2307.13546)]
+  - Transfer learning for portfolio optimization
+
 - Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
   - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
 
@@ -314,6 +320,15 @@ By reverse chronological order.
 
 
 ## Medical and healthcare
+
+- On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
+  - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
+
+- Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
+  - Domain generalization for medical segmentation 用domain generalization进行医学分割
+
+- Probabilistic Domain Adaptation for Biomedical Image Segmentation [[arxiv](http://arxiv.org/abs/2303.11790)]
+  - Probabilistic domain adaptation for biomedical image segmentation 概率的domain adaptation用于生物医疗图像分割
 
 - Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
   - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
@@ -1022,6 +1037,9 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
+  - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为
 
 - Transfer learning for process design with reinforcement learning [[arxiv](https://arxiv.org/abs/2302.03375)]
   - Transfer learning for process design with reinforcement learning 使用强化迁移学习进行过程设计
